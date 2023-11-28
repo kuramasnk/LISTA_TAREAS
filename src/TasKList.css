@@ -1,0 +1,69 @@
+/* TaskList.css */
+
+/* Contenedor principal de la lista de tareas */
+.task-list-container {
+    max-width: 400px; 
+    margin: auto; 
+}
+
+/* Encabezado de la lista de tareas */
+.task-list-header {
+    text-align: center; 
+    font-size: 24px; 
+    margin-bottom: 10px; 
+}
+
+/* Formulario para agregar tareas */
+.task-list-form {
+    margin-bottom: 20px; 
+}
+
+/* Estilo para los inputs dentro del formulario */
+.task-list-form input {
+    width: 70%; 
+    padding: 8px; 
+    margin-right: 10px; 
+}
+
+/* Estilo para los botones dentro del formulario */
+.task-list-form button {
+    padding: 8px; 
+    background-color: #4caf50; 
+    color: white; 
+    border: none; 
+    cursor: pointer; 
+}
+
+/* Estilo para el botón al pasar el cursor sobre él (efecto hover) */
+.task-list-form button:hover {
+    background-color: #45a049; 
+}
+
+/* Lista de tareas */
+.task-list ul {
+    list-style-type: none; 
+    padding: 0; 
+}
+
+/* Estilo para cada ítem de la lista de tareas */
+.task-list li {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    border: 1px solid #ddd; 
+    padding: 8px; 
+    margin-bottom: 8px;
+}
+
+/* Estilo para el botón dentro de cada ítem de la lista de tareas */
+.task-list li button {
+    background-color: #f44336; 
+    color: white; 
+    border: none; 
+    cursor: pointer; 
+}
+
+/* Estilo para el botón de eliminar al pasar el cursor sobre él (efecto hover) */
+.task-list li button:hover {
+    background-color: #d32f2f; 
+}

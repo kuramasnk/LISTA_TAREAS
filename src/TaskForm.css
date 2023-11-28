@@ -1,0 +1,22 @@
+/* TaskForm.css */
+
+/* Estilo para los inputs dentro del componente TaskForm */
+.task-form input {
+    width: 70%;
+    padding: 8px;
+    margin-right: 10px;
+  }
+  
+/* Estilo para los botones dentro del componente TaskForm */
+  .task-form button {
+    padding: 8px;
+    background-color: #4caf51; 
+    color: white; 
+    border: none;
+    cursor: pointer; 
+  }
+  
+/* Estilo para el botón al pasar el cursor sobre él (efecto hover) */
+  .task-form button:hover {
+    background-color: #4562a0; 
+  }
